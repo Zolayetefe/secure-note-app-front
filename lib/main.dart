@@ -6,7 +6,7 @@ void main() {
 }
 
 class SecureNotesApp extends StatelessWidget {
-  const SecureNotesApp({Key? key}) : super(key: key);
+  const SecureNotesApp({super.key});
 
   @override
   Widget build(BuildContext context) {

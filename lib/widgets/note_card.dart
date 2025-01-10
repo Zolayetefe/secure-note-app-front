@@ -5,7 +5,7 @@ class NoteCard extends StatelessWidget {
   final String subtitle;
   final VoidCallback onTap;
 
-  const NoteCard({Key? key, required this.title,required this.subtitle, required this.onTap, }) : super(key: key);
+  const NoteCard({super.key, required this.title,required this.subtitle, required this.onTap, });
 
   @override
   Widget build(BuildContext context) {

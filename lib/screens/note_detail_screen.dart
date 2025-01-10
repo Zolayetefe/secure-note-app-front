@@ -6,7 +6,7 @@ import '../widgets/custom_textfield.dart';
 class NoteDetailScreen extends StatelessWidget {
   final Note note;
 
-  NoteDetailScreen({Key? key, required this.note}) : super(key: key);
+  const NoteDetailScreen({super.key, required this.note});
 
   @override
   Widget build(BuildContext context) {

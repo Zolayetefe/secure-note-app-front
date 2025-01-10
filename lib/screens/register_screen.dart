@@ -7,7 +7,7 @@ import '../widgets/custom_button.dart';
 import 'login_screen.dart'; // Import the LoginScreen class
 
 class RegisterScreen extends StatelessWidget {
-  const RegisterScreen({Key? key}) : super(key: key);
+  const RegisterScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

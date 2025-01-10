@@ -8,7 +8,7 @@ import 'register_screen.dart';
 import 'home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

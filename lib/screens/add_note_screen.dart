@@ -4,7 +4,7 @@ import '../widgets/custom_textfield.dart';
 import '../widgets/custom_button.dart';
 
 class AddNoteScreen extends StatelessWidget {
-  const AddNoteScreen({Key? key}) : super(key: key);
+  const AddNoteScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
