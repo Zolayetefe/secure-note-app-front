@@ -7,13 +7,13 @@ import '../widgets/custom_button.dart';
 import 'login_screen.dart'; // Import the LoginScreen class
 
 class RegisterScreen extends StatelessWidget {
-  const RegisterScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final usernameController = TextEditingController();
+   RegisterScreen({super.key});
+  final usernameController = TextEditingController();
     final passwordController = TextEditingController();
     final confirmPasswordController = TextEditingController();
+  @override
+  Widget build(BuildContext context) {
+  
 
     void registerUser() async {
       final username = usernameController.text.trim();
@@ -128,7 +128,7 @@ class RegisterScreen extends StatelessWidget {
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const LoginScreen(),
+                          builder: (context) =>  LoginScreen(),
                         ),
                       );
                     },

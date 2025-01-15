@@ -8,7 +8,7 @@ import 'package:secure_note/models/note.dart';
 import '../screens/login_screen.dart';  // To decode the JWT token
 
 class ApiService {
-  static const String baseUrl = 'http://10.161.152.83:5000/api';
+  static const String baseUrl = 'http://10.161.152.70:5000/api';
   static final FlutterSecureStorage _storage = FlutterSecureStorage();
 
   // Register method
@@ -73,7 +73,7 @@ class ApiService {
      Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const LoginScreen(),
+                          builder: (context) =>  LoginScreen(),
                         ),
                       );
   }

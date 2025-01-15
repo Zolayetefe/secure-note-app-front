@@ -14,7 +14,7 @@ class SecureNotesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Secure Notes',
       theme: ThemeData(useMaterial3: true),
-      home: const LoginScreen(),
+      home:  LoginScreen(),
       
     );
   }

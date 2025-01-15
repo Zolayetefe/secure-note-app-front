@@ -8,13 +8,12 @@ import 'register_screen.dart';
 import 'home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
-
+   LoginScreen({super.key});
+  final usernameController = TextEditingController();
+    final passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    final usernameController = TextEditingController();
-    final passwordController = TextEditingController();
-
+  
     return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
@@ -96,7 +95,7 @@ class LoginScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const RegisterScreen()),
+                        MaterialPageRoute(builder: (context) =>  RegisterScreen()),
                       );
                     },
                     child: const Text(
